@@ -152,19 +152,6 @@ button:hover {
     background-color: #000000;
 }
 
-.volver-inicio {
-    display: inline-block;
-    background-color: transparent;
-    padding: 0;
-    border: none;
-}
-
-.volver-inicio img {
-    width: 40px;
-    height: auto;
-    vertical-align: middle;
-}
-
 .imagenes {
     display: flex;
     justify-content: space-between;
