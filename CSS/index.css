@@ -1,3 +1,186 @@
-body{
-    background-image: image();
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d8d5d5;
+}
+
+header {
+    background-color: #000000;
+    color: #d8d5d5;
+    padding: 10px 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    color: #d8d5d5;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+    color: #d8d5d5;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    color: #d8d5d5;
+}
+
+section {
+    padding: 20px 0;
+    background-color: #d8d5d5;
+}
+
+footer {
+    text-align: center;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto; 
+    max-width: 600px; 
+}
+label, input, textarea, button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%; 
+}
+
+button {
+    padding: 10px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: auto; 
+}
+
+button:hover {
+    background-color: #777; 
+}
+
+.contenedores_basicos {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#inicio, #productos, #contacto {
+    text-align: center;
+}
+
+.image-links {
+    display: flex;
+    justify-content: center;
+}
+
+.image-link {
+    margin: 0 10px; 
+    text-align: center;
+}
+
+.image-link img {
+    display: block; 
+    margin: 0 auto; 
+    width: 50px;
+}
+
+.image-link a {
+    display: block; 
+}
+
+.Disposicion{
+    background-color: #000000;
+}
+
+.Disposicion2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.columna-izquierda,
+.columna-derecha {
+    flex: 0 1 calc(30% - 10%);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.item {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.item img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.precio {
+    display: none;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+
+.item:hover .precio {
+    display: block; 
+}
+
+.Titulos_Estilos{
+    color:#d60303;
+    background-color: #000000;
+}
+
+.volver-inicio {
+    display: inline-block;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}
+
+.volver-inicio img {
+    width: 40px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.imagenes .item {
+    flex: 0 1 calc(30% - 20px);
+    margin-bottom: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.imagenes .item img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
